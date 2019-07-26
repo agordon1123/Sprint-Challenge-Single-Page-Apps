@@ -81,8 +81,8 @@ Create 3 page components to display data from 3 API endpoints:
   - _Example API Endpoint: `https://rickandmortyapi.com/api/character/`_
   - [X] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
   - [X] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
-  - [ ] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
-  - [ ] Before adding routing, check each component manually by importing into `App.js` and adding to JSX.
+  - [X] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
+  - [X] Before adding routing, check each component manually by importing into `App.js` and adding to JSX.
 
 > 💡**reminder:** `git commit -am 'Part 1 Completed'`
 
@@ -90,13 +90,13 @@ Create 3 page components to display data from 3 API endpoints:
 
 Add a Router to this application by using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
 
-- [ ] Start by wrapping your `root` component in the `BrowserRouter` component.
-- [ ] Declare your 3 routes with `<Route>` components for each component created above..
-- [ ] Include `/characters`, `/locations` and `/episodes` routes.
-- [ ] In your `App` component, add a [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic) that will use React Routers `NavLink` components to link to your different pages.
-- [ ] Make sure to use `<Link>` component instead of `<a>` elements.
+- [X] Start by wrapping your `root` component in the `BrowserRouter` component.
+- [X] Declare your 3 routes with `<Route>` components for each component created above..
+- [X] Include `/characters`, `/locations` and `/episodes` routes.
+- [X] In your `App` component, add a [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic) that will use React Routers `NavLink` components to link to your different pages.
+- [X] Make sure to use `<Link>` component instead of `<a>` elements.
 
-- [ ] **Make sure all tasks are complete:** Do a global search (Cmd-Shift-F in VS Code) for the string `TODO:`.
+- [X] **Make sure all tasks are complete:** Do a global search (Cmd-Shift-F in VS Code) for the string `TODO:`.
 
 > 💡**reminder:** `git commit -am 'MVP Completed'`
 
