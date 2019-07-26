@@ -24,29 +24,30 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
-- [ ] What does AJAX stand for?
-> Answer:
-- [ ] What are `controlled components` in React?
-> Answer:
-- [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+- [X] Explain benefit(s) using `client-side routing`?
+> Answer: Client-side-routing benefits efficiency in regards to data requests. When using server side routing along with http requests, we have to request data from the server each time the information has changed. With client-side-routing, we can re-render new information based on effects from the user. 
+- [X] What does AJAX stand for?
+> Answer: AJAX stands for Asynchronous JavaScript and XML. AJAX allows us to use Javascript to render Html-like elements on our page. 
+- [X] What are `controlled components` in React?
+> Answer: Controlled components are components where the flow of data back up to the parent is controlled by state. 
+- [X] Name three tools/libraries for making AJAX requests.
+> Answer: Three tools for making AJAX requests are Axios, jQuery Ajax, and Fetch API.
+
 
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
+- [X] Create a forked copy of this project.
+- [X] Add TL as collaborator on GitHub.
+- [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [X] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [X] Implement the project on this branch, committing changes regularly.
+- [X] Push commits: `git push origin <firstName-lastName>`.
+- [X] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [X] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [X] **RUN** `yarn start` or `npm start` to fire up your React application.
 
 [Instructions to completing](#completing)
 
