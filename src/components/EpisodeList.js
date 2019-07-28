@@ -20,7 +20,7 @@ export default function EpisodeList() {
     }, [])
 
     return (
-        <section>
+        <section className='list'>
             {episode.map(ep => (
                 <EpisodeCard key={ep.id} ep={ep} />
             ))}

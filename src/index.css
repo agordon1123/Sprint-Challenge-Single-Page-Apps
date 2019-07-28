@@ -36,5 +36,12 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 
 }

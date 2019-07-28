@@ -19,7 +19,7 @@ export default function LocationsList() {
         getLocation();
     }, [])
     return (
-        <section>
+        <section className='list'>
             {location.map(loc => (
                 <LocationCard key={loc.id} loc={loc} />
             ))}

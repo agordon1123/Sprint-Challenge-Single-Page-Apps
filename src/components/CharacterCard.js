@@ -1,14 +1,16 @@
 import React from 'react'
 
+import { CharacterDiv, StyledHHH, CharacterPar, CharacterStatus, CharacterOrigin } from './Styles';
+
 export default function CharacterCard ({ char }) {
   return (
-    <div>
+    <CharacterDiv>
       <img src={char.image} alt={char.name} />
-      <h3>{char.name}</h3>
-      <p>{char.species}</p>
-      <p>{char.status}</p>
-      <p>{char.location.name}</p>
-      <p>{char.origin.name}</p>
-    </div>
+      <StyledHHH>{char.name}</StyledHHH>
+      <CharacterPar>{char.species}</CharacterPar>
+      <CharacterStatus>{char.status}</CharacterStatus>
+      <CharacterPar>{char.location.name}</CharacterPar>
+      <CharacterOrigin>{char.origin.name}</CharacterOrigin>
+    </CharacterDiv>
   )
 }
